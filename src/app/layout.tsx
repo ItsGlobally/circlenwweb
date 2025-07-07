@@ -11,10 +11,11 @@ const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
 });
+
 const minecraft = localFont(
   {
     src: "./Minecraft.woff2",
-    variable: `--${geistSans.variable} ${geistMono.variable}`,
+    variable: "--font-minecraft",
   }
 )
 
@@ -27,7 +28,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body
-        className={minecraft.variable}
+        className={`${minecraft.variable} ${geistSans.variable} ${geistMono.variable}`}
       >
         {children}
       </body>
