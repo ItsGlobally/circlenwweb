@@ -1,0 +1,9 @@
+[debug] [2025-07-07T01:36:58.150Z] ----------------------------------------------------------------------
+[debug] [2025-07-07T01:36:58.152Z] Command:       /nix/store/rbdrkcs5kkwpalxcd7c6bnm33lk2955n-nodejs-20.19.0/bin/node /nix/store/fprgfkwna33crhc86jqbf5878piivvgw-firebase-tools-14.7.0/lib/node_modules/firebase-tools/lib/bin/firebase.js deploy --only hosting
+[debug] [2025-07-07T01:36:58.153Z] CLI Version:   14.7.0
+[debug] [2025-07-07T01:36:58.153Z] Platform:      linux
+[debug] [2025-07-07T01:36:58.153Z] Node Version:  v20.19.0
+[debug] [2025-07-07T01:36:58.153Z] Time:          Mon Jul 07 2025 01:36:58 GMT+0000 (Coordinated Universal Time)
+[debug] [2025-07-07T01:36:58.154Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-07-07T01:36:58.536Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
