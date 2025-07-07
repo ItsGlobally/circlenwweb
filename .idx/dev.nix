@@ -5,7 +5,7 @@
   channel = "unstable"; # or "unstable"
   # Use https://search.nixos.org/packages to find packages
   packages = [
-    pkgs.nodejs_22
+    pkgs.nodejs_20
     pkgs.yarn
     pkgs.nodePackages.pnpm
     pkgs.bun
