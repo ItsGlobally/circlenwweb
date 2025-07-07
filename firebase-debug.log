@@ -34,3 +34,26 @@
 [debug] [2025-07-07T01:37:14.464Z] >>> [apiv2][query] GET https://firebasehosting.googleapis.com/v1beta1/projects/circlenw/sites/circlenw [none]
 [debug] [2025-07-07T01:37:14.794Z] <<< [apiv2][status] GET https://firebasehosting.googleapis.com/v1beta1/projects/circlenw/sites/circlenw 200
 [debug] [2025-07-07T01:37:14.795Z] <<< [apiv2][body] GET https://firebasehosting.googleapis.com/v1beta1/projects/circlenw/sites/circlenw {"name":"projects/circlenw/sites/circlenw","defaultUrl":"https://circlenw.web.app","type":"DEFAULT_SITE"}
+[info]    ▲ Next.js 15.3.4
+
+[info] 
+
+[info]    Creating an optimized production build ...
+
+[info]  ✓ Compiled successfully in 9.0s
+
+[info]    Linting and checking validity of types ...
+
+[info] 
+Failed to compile.
+
+[info] 
+./src/app/layout.tsx
+2:10  Error: 'Geist' is defined but never used.  @typescript-eslint/no-unused-vars
+2:17  Error: 'Geist_Mono' is defined but never used.  @typescript-eslint/no-unused-vars
+
+info  - Need to disable some ESLint rules? Learn more here: https://nextjs.org/docs/app/api-reference/config/eslint#disabling-rules
+
+[debug] [2025-07-07T01:37:41.831Z] Error: ENOENT: no such file or directory, open '/home/user/panel/.next/export-marker.json'
+[error] 
+[error] Error: An unexpected error has occurred.
